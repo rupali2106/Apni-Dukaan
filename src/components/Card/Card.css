@@ -1,0 +1,97 @@
+.card{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin: 12px;
+    border: 0;
+    width: 22vw;
+}
+
+.cntr{
+    position: relative;
+    background: #222;
+    border-radius: 0.25rem;
+    width: 22vw;
+}
+.cntr :hover{
+    opacity: 0.7;
+    transform: translate(-7px, -7px);
+    cursor: pointer;
+}
+.cntr img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    transition: all 0.3s linear;
+}
+
+.ftr{
+    width: 22vw;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.ftr h5{
+    margin-bottom: 0px;
+    font-weight: 400;
+    opacity: 0.9;
+    font-size: 1.1rem;
+}
+.ftr p{
+    color: #ab7a5f;
+    letter-spacing: 0.1rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 930px){
+    .card{
+        width: 25vw;
+    }
+    .cntr{
+        width: 25vw;
+    }
+    .ftr{
+        width: 25vw;
+    }
+    .cntr :hover{
+        opacity: 0.7;
+        transform: translate(-7px, -7px);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 680px){
+    .cntr{
+        width: 46vw;
+        margin-right: 2vw;
+    }
+    .card{
+        width: 46vw;
+    }
+    .ftr{
+        width: 46vw;
+    }
+    .cntr :hover{
+        opacity: 0.7;
+        transform: translate(-7px, -7px);
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 520px){
+    .cntr{
+        width: 50vw;
+    }
+    .card{
+        width: 50vw;
+    }
+    .ftr{
+        width: 50vw;
+    }
+    .cntr :hover{
+        opacity: 0.7;
+        transform: translate(-7px, -7px);
+        cursor: pointer;
+    }
+}
